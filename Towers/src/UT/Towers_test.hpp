@@ -4,10 +4,10 @@
 #include "gtest/gtest.h"
 #include "../Towers.hpp"
 
-class Towers_test: ::testing::Test
+class Towers_test: public ::testing::Test
 {
 public:
-    Towers_test(){}
+    Towers_test();
 };
 
 
